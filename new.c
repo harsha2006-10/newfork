@@ -15,4 +15,19 @@ char calcu(float marks)
     else if(marks>=50) return'E';
     else return'F'
 }
-
+int main()
+{
+    struct student students[10];
+    int n ,i;
+    printf("enter the number of the students (max 10):- ");
+    scanf("%d",&n);
+    for (i=0;i<n;i++)
+    {
+        printf("\n Enter ditails of student %d\n",i+1);
+        printf("enter the roll no:- ");
+        scanf("%d",&students[i].rollno);
+        printf("name :-");
+        scanf("%s", students[i].name);
+        printf("marks:- ");
+        scanf("%f",&students[i].marks);
+    }
