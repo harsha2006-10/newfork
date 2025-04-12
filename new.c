@@ -1,10 +1,6 @@
 <<<<<<< HEAD
 #include<stdio.h>
 #include<string>
-=======
-i#include<stdio.h>
-#include<string.h>
->>>>>>> harsha
 struct student
 {
     int rollno;
@@ -15,15 +11,10 @@ char calcu(float marks)
 {
 <<<<<<< HEAD
 	if(marks>=90) return'A';
-=======
-    if(marks>=90) return'A';
->>>>>>> harsha
     else if(marks>=80) return'B';
     else if(marks>=70) return'c';
     else if(marks>=60) return'D';
     else if(marks>=50) return'E';
-<<<<<<< HEAD
-    else return'F'
 =======
     else return'F';
 >>>>>>> harsha
